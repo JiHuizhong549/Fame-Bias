@@ -12,6 +12,6 @@
 
 | Example | Prompt |
 | :-----| :---- |
-|Premise: ``I'm uh, Chief Master Sergeant, retired, as Rick said.''<br>Hypothesis: I am still working to this day.<br>label: 2<br>|Take the following as truth: +premise+ ``Then the following statement: ''+hypothesis <br> +`is {{"true"}} ,{{"false"}}, or {{"inconclusive"}}?'<br>|
+|Premise: ``I'm uh, Chief Master Sergeant, retired, as Rick said.''<br>Hypothesis: I am still working to this day.<br>label: 2<br>|'Take the following as truth:' +premise+ 'Then the following statement: ' +hypothesis <br> +'is {{"true"}} ,{{"false"}}, or {{"inconclusive"}}?' <br>|
 <p align="center"><b>Table 13. Original data example and input prompt for NLI task</b></p>
 
