@@ -5,7 +5,5 @@
 <p align="center"><b>Fig. 1. Dataset creation process</b></p>
 
 ## Appendix
-| Command | Description |
-| --- | --- |
 | `git status` |
 | `git diff` |
