@@ -5,26 +5,6 @@
 <p align="center"><b>Fig. 1. Dataset creation process</b></p>
 
 ## Appendix
-   <style>
-   table {
-       transform: rotate(90deg);
-       transform-origin: left top 0;
-   }
-   </style>
-   <table>
-       <tr>
-           <th>表头 1</th>
-           <th>表头 2</th>
-           <th>表头 3</th>
-       </tr>
-       <tr>
-           <td>内容 1</td>
-           <td>内容 2</td>
-           <td>内容 3</td>
-       </tr>
-       <tr>
-           <td>内容 4</td>
-           <td>内容 5</td>
-           <td>内容 6</td>
-       </tr>
-   </table>
+| Example | Prompt |
+| :-----| :----: |
+|InputSentence1: Caroline never drinks carbonated beverages.<br>InputSentence2: Her friends pick on her because of it.</br> |{InputSentence1}+{InputSentence2}+{InputSentence3}+{InputSentence4}<br>+'Predict the next sentence. '</br>|
