@@ -14,6 +14,14 @@
 |Gemini 1.0 Pro|0.9712|0.9540|0.9684|0.9080|
 <p align="left"><b>Table 2. Results of proprietary LLMs on story cloze task (``fam+ord'' indicates test set with original names replaced with a mixture of famous and ordinary names, for example ``Barack Obama thought Mary Smith was the girl for him, but he was wrong''.) An asterisk (*) on the right side indicates a significant difference.</b></p>
 
+| |original|famous|ordinary|fam+ord|
+|:-----|:-----|:-----|:-----|:-----|
+|GPT-3.5-turbo|0.5532|0.4365*|0.4656*|0.4216|
+|GPT-3.5-turbo-1106|0.5354|0.4400*|0.4822|0.4076*|
+|GPT-3.5-turbo-16k|0.5177|0.3722*|0.4828|0.3770*|
+|GPT-4|0.7707|0.6800*|0.7356*|0.6|
+|Gemini 1.0 Pro|0.7297|0.6216*|0.6648|0.5621|
+
 ## Appendix
 | Example | Prompt |
 | :-----| :---- |
