@@ -54,6 +54,35 @@
 |ernie-m-large|0.8702|0.8324*|0.8054*|0.7297| 
 |DeBERTa-v3-base|0.9189|0.8594*|0.8540*|0.5945|
 |MiniLM-L6|0.7567|0.7135*|0.7513*|0.7189|
+<p align="left"><b>Table 7.Results of pre-training language models on NLI task</b></p>
+
+|Task|Answers set for comparison|IOR|
+|:-----|:-----|:-----|
+|story cloze|<em>Two or More Famous Names&<em>Two or More Original Names|0.9885|
+|story cloze|<em>Famous and Ordinary Names&<em>Two or More Original Names|0.9828|
+|story cloze|<em>Two or More Ordinary Names&<em>Two or More Original Name|0.9943|
+|NLI|<em>Two or More Famous Names&<em>Two or More Original Names|0.9783|
+|NLI|<em>Famous and Ordinary Names&<em>Two or More Original Names|0.9891|
+|NLI|<em>Two or More Ordinary Names&<em>Two or More Original Names|0.9946|
+<p align="left"><b>Table 8.Results of sentiment analysis on story cloze task and NLI task (IOR stands for Identical Output Ratio)</b></p>
+
+| |original|famous|random|
+|:-----|:-----|:-----|:-----|
+|distilbert-base-cased|0.8538|0.8342|0.7836|
+|bert-large-cased|0.9600|0.9542|0.9122|
+|Gemini 1.0 Pro |0.9712|0.9540|0.9064|
+<p align="left"><b>Table 9.Differences between placeholders and original names in the story cloze task (statistical significance has not been confirmed)</b></p>
+
+| |original|famous|random|
+|:-----|:-----|:-----|:-----|
+|xlm-v-base|0.8378|0.7861*|0.8216*|
+|mDeBERTa-v3-base|0.8756|0.8070*|0.8108*|
+|ernie-m-base|0.8594|0.7861*|0.8054*|
+|ernie-m-large|0.8702|0.7803*|0.8324*| 
+|DeBERTa-v3-base|0.9189|0.8208*|0.8594*|
+|MiniLM-L6|0.7567|0.7341|0.7135*|
+|Gemini 1.0 Pro|0.7297|0.6023*|0.6216*|
+<p align="left"><b>Table 10.Differences between random placeholders and the original names in NLI task (asterisk indicates a significant difference)</b></p>
 
 ## Appendix
 | Example | Prompt |
