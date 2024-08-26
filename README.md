@@ -4,6 +4,11 @@
 ![image](https://github.com/JiHuizhong549/Fame-Bias/blob/main/Figure1.png)
 <p align="center"><b>Fig. 1. Dataset creation process</b></p>
 
+## Tables
+| |original|famous|ordinary|fam+ord|
+|:-----|:-----|:-----|:-----|:-----|
+|GPT-3.5-turbo|0.9490|0.9406*|0.9572|0.9197*|
+
 ## Appendix
 | Example | Prompt |
 | :-----| :---- |
