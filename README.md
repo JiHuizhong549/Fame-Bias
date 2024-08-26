@@ -30,10 +30,30 @@
 |GPT-3.5-turbo-16k|0.5177|0.3722*|0.4828|0.3770*|
 |GPT-4|0.7707|0.6800*|0.7356*|0.6|
 |Gemini 1.0 Pro|0.7297|0.6216*|0.6648|0.5621|
-<p align="left"><b>Table 3. Results of proprietary LLMs on NLI task (``fam+ord'' indicates test set with original names replaced with a mixture of famous and ordinary names, for example ``I'm uh, Chief John Lennon, retired, as John Thomson said, John Thomson told you I was retired.'' ). An asterisk (*) on the right side indicates a significant difference.</b></p>
+<p align="left"><b>Table 4. Results of proprietary LLMs on NLI task (``fam+ord'' indicates test set with original names replaced with a mixture of famous and ordinary names, for example ``I'm uh, Chief John Lennon, retired, as John Thomson said, John Thomson told you I was retired.'' ). An asterisk (*) on the right side indicates a significant difference.</b></p>
 
 |task|model|original|ori&fam|ori&ord|ori&fam+ord|S.D.|
-|<td rowspan=2>|storycloze|Llama-2-chat-7b |0.79|0.18|0.12|0.27|0.098|
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+|storycloze|Llama-2-chat-7b |0.79|0.18|0.12|0.27|0.098|
+|storycloze|Llama-2-chat-13b|0.91|0.02|0|0.07|0.028|
+|XNLI|Llama-2-chat-7b|0.48|0.22|0.1|0.04|0.083|
+|XNLI|Llama-2-chat-13b|0.62|0.22|0.19|0.23|0.093|
+<p align="left"><b>Table 5.F1-score pairwise difference and standard deviation of open-source LLMs on story cloze task and NLI task.</b></p>
+
+| |original|famous|ordinary|fam+ord|
+|:-----|:-----|:-----|:-----|:-----|
+|distilbert-base-cased|0.8571|0.8342|0.8228|0.7714|
+|bert-large-cased|0.9600|0.9542|0.9352|0.9485|
+<p align="left"><b>Table 6.Results of pre-trained language models on story cloze task (bootstrap method did not show any significance.)</b></p>
+
+| |original|famous|ordinary|fam+ord|
+|:-----|:-----|:-----|:-----|:-----|
+|xlm-v-base|0.8378|0.8216*|0.8378*|0.5621|
+|mDeBERTa-v3-base|0.8756|0.8108*|0.8270*|0.7729|
+|ernie-m-base|0.8594|0.8054*|0.8108*|0.7135|
+|ernie-m-large|0.8702|0.8324*|0.8054*|0.7297| 
+|DeBERTa-v3-base|0.9189|0.8594*|0.8540*|0.5945|
+|MiniLM-L6|0.7567|0.7135*|0.7513*|0.7189|
 
 ## Appendix
 | Example | Prompt |
