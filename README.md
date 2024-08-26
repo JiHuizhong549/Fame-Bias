@@ -21,7 +21,7 @@
 |GPT-3.5-turbo-16k|0.5177|0.3722*|0.4828|0.3770*|
 |GPT-4|0.7707|0.6800*|0.7356*|0.6|
 |Gemini 1.0 Pro|0.7297|0.6216*|0.6648|0.5621|
-
+<p align="left"><b>Table 3. Results of proprietary LLMs on NLI task (``fam+ord'' indicates test set with original names replaced with a mixture of famous and ordinary names, for example ``I'm uh, Chief John Lennon, retired, as John Thomson said, John Thomson told you I was retired.'' ). An asterisk (*) on the right side indicates a significant difference.</b></p>
 ## Appendix
 | Example | Prompt |
 | :-----| :---- |
