@@ -6,6 +6,13 @@
 
 ## Tables
 
+|<b>Famous Male Names</b>|<b>Famous Female Names</b>|
+|:-----:|:-----:|
+|Donald Trump<br>Joseph Stalin<br>Barack Obama<br>......<br>|Kim Kardashian<br>Taylor Swift<br>Miley Cyrus<br>......<br>|
+|<b>Ordinary Male Names</b>|<b>Ordinary Female Names</b>|
+|John Young<br>Thomas Barker<br>William Lewis<br>......<br>|Mary Bell<br>Jeanne Martin<br>Elizabeth Bailey<br>......<br>|
+<p align="left"><b>Table 1. Example entries in the Famous Name List and Ordinary Name List</b></p>
+
 |Models/tool|Test data subset names|
 |:-----:|:-----:|
 |Proprietray LLMs<br>Open-source LLMs<br>Pre-trained language models|<em>Famous Name Subset<br><em>Ordinary Name Subset<br><em>Original Name Subset<br><em>Famous and Ordinary Names Subset<br>|
