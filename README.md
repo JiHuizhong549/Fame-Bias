@@ -88,13 +88,13 @@
 
 | |original|famous|random|
 |:-----|:-----|:-----|:-----|
-|xlm-v-base|0.8378|0.7861*|0.8216*|
-|mDeBERTa-v3-base|0.8756|0.8070*|0.8108*|
-|ernie-m-base|0.8594|0.7861*|0.8054*|
-|ernie-m-large|0.8702|0.7803*|0.8324*| 
-|DeBERTa-v3-base|0.9189|0.8208*|0.8594*|
-|MiniLM-L6|0.7567|0.7341|0.7135*|
-|Gemini 1.0 Pro|0.7297|0.6023*|0.6216*|
+|xlm-v-base|0.8378|0.8216*|0.7861*|
+|mDeBERTa-v3-base|0.8756|0.8108*|0.8070*|
+|ernie-m-base|0.8594|0.8054*|0.7861*|
+|ernie-m-large|0.8702|0.8324*|0.7803*|
+|DeBERTa-v3-base|0.9189|0.8594*|0.8208*|
+|MiniLM-L6|0.7567|0.7135*|0.7341|
+|Gemini 1.0 Pro|0.7297|0.6216*|0.6023*|
 <p align="left"><b>Table 10.Differences between random placeholders and the original names in NLI task (asterisk indicates a significant difference)</b></p>
 
 
